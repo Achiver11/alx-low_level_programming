@@ -3,7 +3,7 @@
 /**
  * main - use the command printf
  *
- * retun: 0 if it exit properly
+ * retun: 0 always if it exit properly
  */
 int main(void)
 {
