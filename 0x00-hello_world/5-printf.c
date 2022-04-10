@@ -5,6 +5,9 @@
  *
  * retun: 0 always if it exit properly
  */
+/**
+ * return value of main as 0
+ */
 
 int main(void)
 {
