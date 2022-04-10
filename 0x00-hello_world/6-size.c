@@ -5,7 +5,7 @@
  *
  * return: always 0 for success
  */
-/* Return - always 0 for success/correct */
+/* Return 0 for success/correct */
 int main(void)
 {
 	int a;
