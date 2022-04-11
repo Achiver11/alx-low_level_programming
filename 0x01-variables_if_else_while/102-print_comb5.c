@@ -19,7 +19,7 @@ int main(void)
 {
 	for (digit4 = digit2 + 1; digit4 < 10; digit4++)
 {
-	puchar((digit1 % 10) + '0');
+	putchar((digit1 % 10) + '0');
 	putchar((digit2 % 10) + '0');
 	putchar(32);
 	putchar((digit3 % 10) + '0');
