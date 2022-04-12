@@ -14,5 +14,5 @@ while (c <= 'z')
 	_putchar(c);
 	c++;
 }
-	_putchar('_\n');
+	_putchar('\n');
 }
