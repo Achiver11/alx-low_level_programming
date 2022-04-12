@@ -2,20 +2,20 @@
 /**
  * main - entry point
  *
- * Return: Always 0 (success)
+ * Return: nothing, return void
  */
 
 int main(void)
 {
-	char samu[] = "_putchar";
-
-	int c;
-	for (c = 0; c < 8; c++);
-
-	{
-	_putchar(samu[c]);
-	}
-	
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
