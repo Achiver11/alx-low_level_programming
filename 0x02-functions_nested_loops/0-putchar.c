@@ -7,9 +7,13 @@
 
 int main(void)
 {
-	write('_putchar');
+	char samu[] = "_putchar";
 
-	write('\n');
-
+	int c;
+	for (c = 0, c < 8; c++)
+	{
+	_putchar(samu[c]);
+	}
+	_putchar('\n');
 	return (0);
 }
