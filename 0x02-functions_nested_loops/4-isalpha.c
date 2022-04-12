@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - check for lowercase
- * parameter or member k
+ *c : parameter c
  * Return: 0 or 1
  */
 
