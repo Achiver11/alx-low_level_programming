@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description
+ * Description : compute and print the sum of all the multiple of 3 or
+ * 5 below 1024 (excluded), followed by a new line
  *
  * return : 0
  */
