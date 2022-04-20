@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  *puts2 - prints every character of a string
  *@str: A pointer to an int that will be changed
@@ -9,7 +8,7 @@
 
 void puts2(char *str)
 {
-int a;
+	int a;
 
 for (a = 0; str[a] != '\0'; a++)
 {
