@@ -1,1 +1,1 @@
-static lib tasks
+Ox09 Static Libraries task
