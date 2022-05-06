@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ * print_diagonal - print diagonal
+ * @n : parameter
+ * Return : nothi
+ */
+void print_diagonal(int n)
+{
+	int len, space;
+	if (n > 0)
+{
+	for (len = 0; len < 10; len++)
+{
+	for (space = 0; space < len; space++)
+	_putchar(' ');
+
+	_putchar('\\');
+	
+	if (len == (n-1))
+	
+		continue;
+	_putchar('\n');
+}
+}
+	_putchar('\n');
+}

@@ -1,14 +1,19 @@
 #include "main.h"
 /**
- * _isdigit - function that verifies if a character is a digit or noy
- * @c : tested character
- * Return : 1 if its a digit
+ * _isdigit - if is a digit
+ *@c: print int
+ * Return: Always 0.
  */
+
 int _isdigit(int c)
 {
-	if ((c >= 48) && (c <= 57))
-	
-	return (1);
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
 
-	return (0);
+else
+{
+return (0);
+}
 }

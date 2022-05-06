@@ -1,26 +1,34 @@
 #include "main.h"
 /**
- * print_diagonal - print diagonal
- * @n : parameter
- * Return : nothi
+ * print_diagonal - prints diagonal line
+ *@n: print int
+ * Return: Always 0.
  */
 void print_diagonal(int n)
 {
-	int len, space;
-	if (n > 0)
-{
-	for (len = 0; len < 10; len++)
-{
-	for (space = 0; space < len; space++)
-	_putchar(' ');
 
-	_putchar('\\');
-	
-	if (len == (n-1))
-	
-		continue;
-	_putchar('\n');
+int i;
+int b;
+
+if (n > 0)
+{
+for (i = 0; i < n; i++)
+{
+for (b = 0; b < i; b++)
+{
+_putchar (' ');
 }
+_putchar (92);
+_putchar ('\n');
+
 }
-	_putchar('\n');
+
+}
+
+
+else
+{
+_putchar ('\n');
+}
+
 }
